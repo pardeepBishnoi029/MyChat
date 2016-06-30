@@ -2,8 +2,8 @@
 //  OneMUC.swift
 //  OneChat
 //
-//  Created by Pardeep Kumar on 03/03/2015.
-//  Copyright (c) 2015 Appster. All rights reserved.
+//  Created by Pardeep Bishnoi on 15/06/16.
+//  Copyright © 2016 Pardeep Bishnoi. All rights reserved.
 //
 
 import Foundation

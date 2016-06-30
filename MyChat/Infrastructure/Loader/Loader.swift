@@ -1,8 +1,8 @@
 //
 //  SwiftLoader.swift
-//  WorklifeCALENDAR
 //
-//  Copyright © 2016 WorklifeCALENDAR. All rights reserved.
+//  Created by Pardeep Bishnoi on 15/06/16.
+//  Copyright © 2016 Pardeep Bishnoi. All rights reserved.
 
 import UIKit
 import QuartzCore
