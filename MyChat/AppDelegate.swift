@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var navController : UINavigationController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewControllerWithIdentifier("MCLoginVC") as! MCLoginVC
+        navController = UINavigationController(rootViewController: viewController)
+        
+        self.window?.backgroundColor = UIColor(red: 236.0, green: 238.0, blue: 241.0, alpha: 1.0)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+        
+        //Setup XMPP
+        setupXMPP()
+        
         return true
     }
 
@@ -39,8 +51,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        OneChat.stop()
     }
 
-
+    func setupXMPP() {
+        OneChat.start(true, delegate: nil) { (stream, error) -> Void in
+            if let _ = error {
+                //handle start errors here
+                print("errors from appdelegate")
+            } else {
+                print("Setup XMPP Successfully")
+                //Activate online UI
+            }
+        }
+    }
 }
 

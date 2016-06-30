@@ -7,21 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		419DB10F1D113B040017A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB10E1D113B040017A960 /* AppDelegate.swift */; };
-		419DB1111D113B040017A960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB1101D113B040017A960 /* ViewController.swift */; };
-		419DB1141D113B040017A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419DB1121D113B040017A960 /* Main.storyboard */; };
 		419DB1161D113B040017A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419DB1151D113B040017A960 /* Assets.xcassets */; };
 		419DB1191D113B040017A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419DB1171D113B040017A960 /* LaunchScreen.storyboard */; };
+		419DB1271D113BFA0017A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419DB1251D113BFA0017A960 /* Main.storyboard */; };
+		419DB12F1D113C9B0017A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB12D1D113C9B0017A960 /* AppDelegate.swift */; };
+		419DB1301D113C9B0017A960 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 419DB12E1D113C9B0017A960 /* Info.plist */; };
+		419DB1461D113DD20017A960 /* MCLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB1451D113DD20017A960 /* MCLoginVC.swift */; };
+		419DB1481D113DEB0017A960 /* MCContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB1471D113DEB0017A960 /* MCContactListVC.swift */; };
+		419DB14A1D113E080017A960 /* MCChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DB1491D113E080017A960 /* MCChatVC.swift */; };
+		41CD3C781D24FE05007D1724 /* MCAddBuddyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD3C771D24FE05007D1724 /* MCAddBuddyVC.swift */; };
+		41EEF2571D1D07E0007EF1BB /* kXMPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF24F1D1D07E0007EF1BB /* kXMPP.swift */; };
+		41EEF2581D1D07E0007EF1BB /* OneChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2501D1D07E0007EF1BB /* OneChat.swift */; };
+		41EEF2591D1D07E0007EF1BB /* OneChats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2511D1D07E0007EF1BB /* OneChats.swift */; };
+		41EEF25A1D1D07E0007EF1BB /* OneLastActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2521D1D07E0007EF1BB /* OneLastActivity.swift */; };
+		41EEF25B1D1D07E0007EF1BB /* OneMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2531D1D07E0007EF1BB /* OneMessage.swift */; };
+		41EEF25C1D1D07E0007EF1BB /* OnePresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2541D1D07E0007EF1BB /* OnePresence.swift */; };
+		41EEF25D1D1D07E0007EF1BB /* OneRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2551D1D07E0007EF1BB /* OneRoom.swift */; };
+		41EEF25E1D1D07E0007EF1BB /* OneRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2561D1D07E0007EF1BB /* OneRoster.swift */; };
+		41EEF2611D1D083C007EF1BB /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEF2601D1D083C007EF1BB /* Loader.swift */; };
+		B82A2D71F0F73E136EEF3E16 /* Pods_MyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9A78AE36B615E2C201FFC /* Pods_MyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		419DB10B1D113B040017A960 /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		419DB10E1D113B040017A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		419DB1101D113B040017A960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		419DB1131D113B040017A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		419DB1151D113B040017A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419DB1181D113B040017A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		419DB11A1D113B040017A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419DB1251D113BFA0017A960 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		419DB12D1D113C9B0017A960 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		419DB12E1D113C9B0017A960 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419DB1451D113DD20017A960 /* MCLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCLoginVC.swift; sourceTree = "<group>"; };
+		419DB1471D113DEB0017A960 /* MCContactListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCContactListVC.swift; sourceTree = "<group>"; };
+		419DB1491D113E080017A960 /* MCChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCChatVC.swift; sourceTree = "<group>"; };
+		41CD3C771D24FE05007D1724 /* MCAddBuddyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCAddBuddyVC.swift; sourceTree = "<group>"; };
+		41EEF24F1D1D07E0007EF1BB /* kXMPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kXMPP.swift; sourceTree = "<group>"; };
+		41EEF2501D1D07E0007EF1BB /* OneChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneChat.swift; sourceTree = "<group>"; };
+		41EEF2511D1D07E0007EF1BB /* OneChats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneChats.swift; sourceTree = "<group>"; };
+		41EEF2521D1D07E0007EF1BB /* OneLastActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneLastActivity.swift; sourceTree = "<group>"; };
+		41EEF2531D1D07E0007EF1BB /* OneMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneMessage.swift; sourceTree = "<group>"; };
+		41EEF2541D1D07E0007EF1BB /* OnePresence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePresence.swift; sourceTree = "<group>"; };
+		41EEF2551D1D07E0007EF1BB /* OneRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneRoom.swift; sourceTree = "<group>"; };
+		41EEF2561D1D07E0007EF1BB /* OneRoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneRoster.swift; sourceTree = "<group>"; };
+		41EEF2601D1D083C007EF1BB /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		5302474364C74F5F12FE1254 /* Pods-MyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyChat/Pods-MyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F9A78AE36B615E2C201FFC /* Pods_MyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4BDA4596CDBFD4CD79AF5D /* Pods-MyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyChat/Pods-MyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82A2D71F0F73E136EEF3E16 /* Pods_MyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +70,8 @@
 			children = (
 				419DB10D1D113B040017A960 /* MyChat */,
 				419DB10C1D113B040017A960 /* Products */,
+				64B50FE799F5A5AF68F13A42 /* Pods */,
+				4A3AB01C6EDE8ABE3B7BCC5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,83 @@
 		419DB10D1D113B040017A960 /* MyChat */ = {
 			isa = PBXGroup;
 			children = (
-				419DB10E1D113B040017A960 /* AppDelegate.swift */,
-				419DB1101D113B040017A960 /* ViewController.swift */,
-				419DB1121D113B040017A960 /* Main.storyboard */,
+				419DB1311D113D5C0017A960 /* Infrastructure */,
+				419DB1221D113BFA0017A960 /* Controller */,
+				419DB1241D113BFA0017A960 /* View */,
 				419DB1151D113B040017A960 /* Assets.xcassets */,
 				419DB1171D113B040017A960 /* LaunchScreen.storyboard */,
-				419DB11A1D113B040017A960 /* Info.plist */,
+				419DB12D1D113C9B0017A960 /* AppDelegate.swift */,
+				419DB12E1D113C9B0017A960 /* Info.plist */,
 			);
 			path = MyChat;
+			sourceTree = "<group>";
+		};
+		419DB1221D113BFA0017A960 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				419DB1451D113DD20017A960 /* MCLoginVC.swift */,
+				419DB1471D113DEB0017A960 /* MCContactListVC.swift */,
+				419DB1491D113E080017A960 /* MCChatVC.swift */,
+				41CD3C771D24FE05007D1724 /* MCAddBuddyVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		419DB1241D113BFA0017A960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				419DB1251D113BFA0017A960 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		419DB1311D113D5C0017A960 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				41EEF25F1D1D083C007EF1BB /* Loader */,
+				41EEF24E1D1D07E0007EF1BB /* XMPPChat */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		41EEF24E1D1D07E0007EF1BB /* XMPPChat */ = {
+			isa = PBXGroup;
+			children = (
+				41EEF24F1D1D07E0007EF1BB /* kXMPP.swift */,
+				41EEF2501D1D07E0007EF1BB /* OneChat.swift */,
+				41EEF2511D1D07E0007EF1BB /* OneChats.swift */,
+				41EEF2521D1D07E0007EF1BB /* OneLastActivity.swift */,
+				41EEF2531D1D07E0007EF1BB /* OneMessage.swift */,
+				41EEF2541D1D07E0007EF1BB /* OnePresence.swift */,
+				41EEF2551D1D07E0007EF1BB /* OneRoom.swift */,
+				41EEF2561D1D07E0007EF1BB /* OneRoster.swift */,
+			);
+			path = XMPPChat;
+			sourceTree = "<group>";
+		};
+		41EEF25F1D1D083C007EF1BB /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				41EEF2601D1D083C007EF1BB /* Loader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		4A3AB01C6EDE8ABE3B7BCC5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9A78AE36B615E2C201FFC /* Pods_MyChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B50FE799F5A5AF68F13A42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5302474364C74F5F12FE1254 /* Pods-MyChat.debug.xcconfig */,
+				BF4BDA4596CDBFD4CD79AF5D /* Pods-MyChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 419DB11D1D113B040017A960 /* Build configuration list for PBXNativeTarget "MyChat" */;
 			buildPhases = (
+				013DFA5A1BD4062F2DB11D73 /* 📦 Check Pods Manifest.lock */,
 				419DB1071D113B040017A960 /* Sources */,
 				419DB1081D113B040017A960 /* Frameworks */,
 				419DB1091D113B040017A960 /* Resources */,
+				6C1A75DB547B831B19F33CBE /* 📦 Embed Pods Frameworks */,
+				C89953F61C4FE9DD77B35881 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,35 +226,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419DB1301D113C9B0017A960 /* Info.plist in Resources */,
 				419DB1191D113B040017A960 /* LaunchScreen.storyboard in Resources */,
 				419DB1161D113B040017A960 /* Assets.xcassets in Resources */,
-				419DB1141D113B040017A960 /* Main.storyboard in Resources */,
+				419DB1271D113BFA0017A960 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013DFA5A1BD4062F2DB11D73 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1A75DB547B831B19F33CBE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyChat/Pods-MyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89953F61C4FE9DD77B35881 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyChat/Pods-MyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		419DB1071D113B040017A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419DB1111D113B040017A960 /* ViewController.swift in Sources */,
-				419DB10F1D113B040017A960 /* AppDelegate.swift in Sources */,
+				41EEF25D1D1D07E0007EF1BB /* OneRoom.swift in Sources */,
+				419DB1461D113DD20017A960 /* MCLoginVC.swift in Sources */,
+				41EEF2571D1D07E0007EF1BB /* kXMPP.swift in Sources */,
+				41EEF2591D1D07E0007EF1BB /* OneChats.swift in Sources */,
+				41EEF25A1D1D07E0007EF1BB /* OneLastActivity.swift in Sources */,
+				419DB14A1D113E080017A960 /* MCChatVC.swift in Sources */,
+				41EEF25C1D1D07E0007EF1BB /* OnePresence.swift in Sources */,
+				419DB1481D113DEB0017A960 /* MCContactListVC.swift in Sources */,
+				41EEF25B1D1D07E0007EF1BB /* OneMessage.swift in Sources */,
+				41EEF2611D1D083C007EF1BB /* Loader.swift in Sources */,
+				41EEF2581D1D07E0007EF1BB /* OneChat.swift in Sources */,
+				419DB12F1D113C9B0017A960 /* AppDelegate.swift in Sources */,
+				41EEF25E1D1D07E0007EF1BB /* OneRoster.swift in Sources */,
+				41CD3C781D24FE05007D1724 /* MCAddBuddyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		419DB1121D113B040017A960 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				419DB1131D113B040017A960 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		419DB1171D113B040017A960 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,6 +404,7 @@
 		};
 		419DB11E1D113B040017A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5302474364C74F5F12FE1254 /* Pods-MyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyChat/Info.plist;
@@ -258,6 +416,7 @@
 		};
 		419DB11F1D113B040017A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4BDA4596CDBFD4CD79AF5D /* Pods-MyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyChat/Info.plist;
@@ -286,6 +445,7 @@
 				419DB11F1D113B040017A960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
